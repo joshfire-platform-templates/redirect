@@ -1,0 +1,20 @@
+{
+  "name": "redirect",
+  "fullName": "Redirect template",
+  "version": "1.0.0",
+  "description": "This template redirects the user to the URL configured by the app author.",
+  "joshfire": {
+    "images": {
+      "small": "marketing/small.png",
+      "big": "marketing/big.png"
+    },
+    "options": {
+      "schema": {
+        "urlToRedirect": {
+          "type": "string",
+          "title": "Redirect URL"
+        }
+      }
+    }
+  }
+}
